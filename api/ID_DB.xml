@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<IDDatabase>
+    <Person>
+        <FullName>Ahmet Yilmaz</FullName>
+        <IDNo>1234567890</IDNo>
+        <isAttendant>0</isAttendant>
+    </Person>
+    <Person>
+        <FullName>Huseyin Koc</FullName>
+        <IDNo>5676928189</IDNo>
+        <isAttendant>0</isAttendant>
+    </Person>
+    <Person>
+        <FullName>Sedat Can</FullName>
+        <IDNo>5493515293</IDNo>
+        <isAttendant>0</isAttendant>
+    </Person>
+    <Person>
+        <FullName>Hakan Tas</FullName>
+        <IDNo>4619237356</IDNo>
+        <isAttendant>0</isAttendant>
+    </Person>
+    <Person>
+        <FullName>Ayse Kaya</FullName>
+        <IDNo>6327569435</IDNo>
+        <isAttendant>1</isAttendant>
+    </Person>
+</IDDatabase>

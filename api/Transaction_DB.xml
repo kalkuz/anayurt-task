@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<TransactionDatabase>
+    <Transaction>
+        <Customer>Ahmet Yilmaz</Customer>
+        <Attendant>Ayse Kaya</Attendant>
+        <TransactionID>0</TransactionID>
+    </Transaction>
+    <Transaction>
+        <Customer>Undefined</Customer>
+        <Attendant>Ayse Kaya</Attendant>
+        <TransactionID>1</TransactionID>
+    </Transaction>
+    <Transaction>
+        <Customer>Hakan Tas</Customer>
+        <Attendant>Undefined</Attendant>
+        <TransactionID>2</TransactionID>
+    </Transaction>
+    <Transaction>
+        <TransactionID>3</TransactionID>
+        <Customer>Hakan Tas</Customer>
+        <Attendant>Ayse Kaya</Attendant>
+    </Transaction>
+    <Transaction>
+        <TransactionID>4</TransactionID>
+        <Customer>Hakan Tas</Customer>
+        <Attendant>Ayse Kaya</Attendant>
+    </Transaction>
+    <Transaction>
+        <TransactionID>5</TransactionID>
+        <Customer>Hakan Tas</Customer>
+        <Attendant>undefined</Attendant>
+    </Transaction>
+</TransactionDatabase>
