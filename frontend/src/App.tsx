@@ -33,7 +33,7 @@ function App() {
             <h4>Customer Information</h4>
             <input className="mb-2 w-100" placeholder="Customer-ID#" onChange={(e) => setCustomer(e.target.value)} />
             <button type="button" className="btn btn-primary w-50" onClick={() => CheckPerson(customer)}>
-              Check DB
+              Check Person
             </button>
           </div>
 
@@ -41,12 +41,12 @@ function App() {
             <h4>Attendant Information</h4>
             <input className="mb-2 w-100" placeholder="Customer-ID#" onChange={(e) => setAttendant(e.target.value)} />
             <button type="button" className="btn btn-primary w-50" onClick={() => CheckPerson(attendant)}>
-              Check DB
+              Check Person
             </button>
           </div>
 
           <button type="button" className="btn btn-lg btn-warning w-50 mt-5" onClick={CheckTransaction}>
-            Sorgula
+            Create Transaction
           </button>
         </div>
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-center">

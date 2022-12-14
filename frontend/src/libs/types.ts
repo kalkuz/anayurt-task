@@ -1,4 +1,4 @@
 export interface LogMessage {
-  message: string,
-  type: 'success' | 'error',
+  message: string;
+  type: 'success' | 'error';
 }

@@ -2,6 +2,7 @@ import express, { json } from 'express';
 import cors from 'cors';
 import fs from 'fs';
 import { OBJ2XML, XML2OBJ } from './utils';
+import { Person } from './types';
 
 // initialize runtime variables for database entries
 let personDB;
@@ -20,7 +21,7 @@ App.get('/api/person/:id', (req, res) => {
   const { id } = req.params;
 
   // Try to find the person in the database
-  const person = personDB?.IDDatabase?.Person?.find((p) => p.IDNo._text === id);
+  const person = personDB?.IDDatabase?.Person?.find((p) => p.IDNo._text === id) as Person;
   console.log(`Person ${id} ${person ? 'exists' : 'not exists'} in the database`);
 
   // Send HTTP status to client
